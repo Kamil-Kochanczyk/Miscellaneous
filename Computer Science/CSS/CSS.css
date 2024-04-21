@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: italic;
+}
+
+#red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+p.yellow {
+    color: yellow;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Pseudo-class -> special state of an element */
+p:nth-of-type(9) {
+    color: green;
+}
+
+/* Pseudo-element -> specified part of an element */
+p#selection::selection {
+    background-color: mediumspringgreen;
+    color: magenta;
+}

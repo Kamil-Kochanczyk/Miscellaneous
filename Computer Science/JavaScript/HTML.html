@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="CSS.css"/>
+</head>
+<body>
+    <p id="external">Hi</p>
+    <p id="internal">Hello</p>
+    <button type="button" onclick="changeExternal()">Change external</button>
+    <button type="button" onclick="changeInternal()">Change internal</button>
+    <br/>
+    <br/>
+
+    <p>Click the button below to show/hide the current date</p>
+    <button id="displayDate" type="button" onclick="displayDate()">Display date</button>
+    <p id="currentDate"></p>
+    <br/>
+    <br/>
+
+    <input id="input" type="text">
+    <button id="checkInput" type="button" onclick="checkInput()">Check input</button>
+    <p id="showResult"></p>
+    <br/>
+    <br/>
+
+    <script src="JavaScript.js"></script>
+    <script>
+        function changeInternal() {
+            document.getElementById("internal").innerHTML = "Internal";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#displayDate {
+    background-color: hsl(157, 100%, 49%);
+    color: black;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 0.5em;
+    border: 2px solid hsl(157, 100%, 49%);
+    border-radius: 5px;
+}
+
+#displayDate:hover {
+    background-color: hsl(189, 100%, 49%);
+    border-color: hsl(189, 100%, 49%);
+}
